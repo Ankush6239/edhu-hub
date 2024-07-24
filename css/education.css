@@ -1,0 +1,155 @@
+body{
+font-family:url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+}
+#new{
+    background-color: #d85601;
+    color: white;
+    padding: 1px;
+    font-weight: bold;
+}
+#tutorbtn{
+    border-radius: 23px;
+  background-color: #001B61;
+  border: none;
+  color: white;
+   padding-top: 8px;
+   padding-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 208px
+}
+#tutorbtn:hover {
+    margin-top: -4px;
+    transition: margin-top 0.3s ease-in-out;
+    background-color: #001E92;
+}
+#ulborder{
+    border: 2px solid #d85601;
+}
+#containerimg{
+    background-image: url(https://s7template.com/tf/eduskills/assets/images/banner-image-00.jpg);
+    
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    /* background-color: rgba(0, 27, 97, 0.35); */
+    
+}
+#form-select{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    border-radius: 49px;
+}
+#btnsearch{
+  background-color:#d85601;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+#background{
+    /* background-color: #001E92; */
+    padding: 50px;
+    background-color: rgba(0, 27, 97, 0.35);
+    /* opacity:0.4; */
+    border-radius: 20px;
+}
+#spanf{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+#spanf2{
+    color: white;
+    font-size: 60px;
+    border-bottom:4px solid #d85601;
+}
+#span3{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+#whatf{
+    border-bottom: 3px solid#00A5B8;
+}
+#whatf2{
+    color: #001B61;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#imgs:hover{
+    filter: grayscale(1);
+}
+#imgv{
+   border-radius: 20px;
+   width: 100%;
+   max-width: 800px;
+   height: auto;
+}
+#imgv2{
+   
+  position: absolute;
+  left: 473px;
+  padding: 121px;
+}
+#containerc{
+    background-color: #f7f2dd;
+}
+#btnabout{
+    background-color: #001B61;
+    border: none;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 163px;
+    height: 42px;
+  }
+#btnabout:hover{
+    margin-top: -4px;
+    transition: margin-top 0.3s ease-in-out;
+    background-color: #001E92;
+}
+#textcen{
+    color: #001B61;
+}
+#spanab{
+    border-bottom: 4px solid #00A5B8;
+}
+#upd{
+    position: relative;
+  top: -140px;
+padding-top: 10px;
+}
+#textcen2{
+    color: #001B61;
+}
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#card:hover{
+    box-shadow: none;
+}
+#card,.card-body:hover{
+    padding-top: -18px;
+    transition: padding-top .1s ease-in-out;
+}
+#card,.img:hover{
+    padding-top: 18px;
+    transition: padding-top .1s ease-in-out;
+}
+#searchtutbtn{
+    background-color: #001B61;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 163px;
+    height: 42px;
+}
