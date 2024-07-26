@@ -115,6 +115,7 @@ body {
 
 #containerc {
     background-color: #f7f2dd;
+    overflow: hidden;
 }
 
 #btnabout {
@@ -445,3 +446,116 @@ body {
     padding-right: 5px;
     padding-left: 5px;
 }
+#onnav{
+    background-color: #001E92
+}
+#spanrb2{
+    border-right: 1px solid black;
+    padding-right: 15px;
+    padding-left: 5px;
+    color: white;
+    border-right-color:white ;
+    font-size: 17px;
+}
+#signbtn{
+    background-color: #F16001;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+#form-select2{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    border-start-start-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-top: 10px;
+  border: none;
+  background-color: gainsboro;
+    /* border-radius-left: 49px; */
+    /* border-start-end-radius:49px ; */
+}
+#inputGroupSelect01{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    /* border-start-start-radius: 40px;
+  border-bottom-left-radius: 40px; */
+  margin-top: 10px;
+  border: none;
+  background-color: gainsboro;
+  border-radius: none;
+  margin-right: -10px;
+
+}
+
+#form23{
+    border-end-end-radius:40px ;
+    border-top-right-radius:40px ;
+    /* width:100%; */
+    max-width: 300px;
+   margin-top: 10px;
+    height: 48px;
+    border: none;  
+    background-color: gainsboro;
+}
+#form23a{
+    /* border-end-end-radius:40px ;
+    border-top-right-radius:40px ; */
+    /* width:100%; */
+    max-width: 300px;
+    border-radius: none;
+    border: none;
+   margin-top: 10px;
+    height: 48px;
+    background-color: gainsboro;
+    border: none;
+    d
+}
+/* #form23a:hover{
+    border: none;
+} */
+ #cars{
+    background-color: transparent;
+ }
+ 
+ @media screen and (min-width: 400px) and (max-width: 600px) {
+    #hide {
+        display: none;
+    }
+}
+#signbtn2{
+    background-color: #F16001;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+}
+#imf{
+    object-fit: cover;
+    width: 100%;
+}
+#bigk{
+    font-size: 70px;
+    color: #00A5B8;
+}
+#pp{
+    color: #4e6b7b;;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bigk1{
+    font-size: 70px;
+    color: #F16001 ;
+}
+#bigk2{
+    font-size: 70px;
+    color: #001B61  ;
+}
+#aF5F5F5{
+    background-color: #c2c1c1  ;
+} 
