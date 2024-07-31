@@ -699,17 +699,21 @@ color:orangered ;
     border: none;
     outline: none;
     padding: 5px;
+    border-radius: 20px 0 0 20px ;
 }
 
 #onu2 {
     background-color: white;
     cursor: pointer;
+    border-radius: 0 20px 20px 0;
 }
 
 #onuside i {
     font-size: 20px;
-    margin: 0 10px;
+    margin: px;
     color: white;
+   border-right: 1px solid white;
+   padding: 5px;
 }
 
 #onuside i:hover {
@@ -723,6 +727,7 @@ color:orangered ;
     outline: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    border-radius: 30px;
 }
 
 #onubtn:hover {
@@ -778,4 +783,128 @@ color:orangered ;
 
 #onubtnsub:hover {
     background-color: darkorange;
+}
+#onuul{
+    list-style: none;
+    display: flex;
+    overflow: auto;
+    
+}
+#onulis{
+    display: inline;
+padding-left: 10px;
+
+}
+#card-body1{
+   color: #001E92;
+   font-weight: bold;
+   font-size: 45px;
+}
+#viewall{
+    border: 1px solid orangered;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+}
+#viewall:hover{
+    background-color: orangered;
+    color: white;
+}
+#bcc2{
+    background-image: url(https://s7template.com/tf/eduskills/assets/images/video-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: white;
+}
+#bcc3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 27, 97, 0.5);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#omuimgc{
+    width: 50%;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    transform: translate(50%, 10%) scale(1.1);
+   
+}
+#omuimgc1{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-35%, 124%) scale(1.1);
+}
+#onucvisit{
+    color: #001B61;
+    font-weight: bold;
+    font-size: 50px;
+}
+#onuimg2{
+    list-style: none;
+    display: flex;
+    overflow: auto;
+   
+}
+#onuimg2a{
+    display: inline;
+    padding: 10px;
+}
+#onuimg2b{
+    border-radius: 20px;
+}
+#onurowimg{
+    background-image: url(https://s7template.com/tf/eduskills/assets/images/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;
+}
+#onurowimg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 83, 73, 0.5);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#Become{
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white; 
+    justify-content: center;
+    
+}
+#onuul2{
+    list-style: none;
+    display:flex;
+    overflow: auto;
+
+}
+#onuul2 li{
+  padding: 2px;
 }
